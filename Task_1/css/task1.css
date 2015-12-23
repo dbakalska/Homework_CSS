@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	height: 60px;
+	background-color: DarkSlateGrey;
+	margin: 0 auto;
+}
+
+#main {
+	width: 90%;
+	height: 100px;
+	background-color: Green;
+	margin: 0.5em auto;
+}
+
+#left {
+	width: 44.5%;
+	height: 25px;
+	background-color: Purple;
+	margin: 0 15px 0 75px;
+	float: left;
+}
+
+#right {
+	width: 44.5%;
+	height: 25px;
+	background-color: Blue;
+	margin: 0 75px 0 0;
+	display: inline-block;
+}
