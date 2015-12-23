@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background-color: Teal;
+	margin: 0.8em 0;
+}
+
+aside {
+	width: 38.5%;
+	height: 300px;
+	background-color: MediumVioletRed;
+	float: left;
+
+}
+
+article {
+	width: 60%;
+	height: 300px;
+	background-color: Lime;
+	margin-left: 1.2em;
+	display: inline-block;
+	
+}
+
+footer {
+	height: 100px;
+	background-color: Blue;
+	margin-top: 0.8em;
+}
