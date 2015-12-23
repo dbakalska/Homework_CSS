@@ -1,0 +1,70 @@
+
+body {
+	width: 1170px;
+	margin: auto;
+	
+}
+
+header {
+	height: 150px;
+	color: White;
+	background-color: DarkGoldenRod;
+	margin: 0;
+	padding: 0.1em;
+	text-indent: 2em;
+}
+
+header p {
+	padding-left: 2em;
+}
+
+#main > * {
+	float: left;
+	min-height: 600px;
+	line-height: 1.5em;
+}
+
+#main {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#left {
+	width: 12.1%;
+	color: White;
+	background-color: Maroon;
+	padding: 1em;
+	line-height: 2em;
+}
+
+article {
+	width: 65%;
+	background-color: Khaki;
+	padding-left: 1em;
+}
+
+article div {
+	padding-right: 1.3em;
+	padding-left: 1.8em;
+	padding-bottom: 0.2em;
+	text-align: justify;
+}
+
+#right {
+	width: 16%;
+	background-color: DarkKhaki;
+	padding: 1em;
+	text-align: right;
+	line-height: 1.6em;
+}
+
+footer {
+	height: 30px;
+	background-color: Grey;
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	display: table-cell;
+    vertical-align: bottom;
+    width: 1170px;
+}
