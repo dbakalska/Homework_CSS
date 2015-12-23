@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+header {
+	height: 25px;
+	background-color: Black;
+	margin: 0.5em 0;
+}
+
+#main > * {
+	float: left;
+	min-height: 300px;
+}
+
+#main {
+	display: inline-block;
+	width: 100%;
+}
+
+#left {
+	width: 20%;
+	background-color: Purple;
+}
+
+article {
+	width: 58.4%;
+	background-color: Green;
+	margin-right: 0.8em;
+	margin-left: 0.8em;
+}
+
+#right {
+	width: 20%;
+	background-color: Red;
+}
+
+footer {
+	height: 25px;
+	background-color: Blue;
+	margin-top: 0.3em;
+}
