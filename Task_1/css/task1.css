@@ -16,6 +16,7 @@ header {
 	height: 100px;
 	background-color: Green;
 	margin: 0.5em auto;
+	background: #f00;
 }
 
 #left {
